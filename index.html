@@ -14,14 +14,24 @@
                 margin-bottom: 25px;
                 margin-right: 75px;
             }
+            .masthead {
+                position: relative;
+                border-bottom: 1px solid #f2f3f3;
+                -webkit-animation: intro 0.3s both;
+                animation: intro 0.3s both;
+                -webkit-animation-delay: 0.15s;
+                animation-delay: 0.15s;
+                z-index: 20;
+            }   
             a {color: #f8f8f2;}
         </style>
         <title>Justin Yu</title>
     </head>
     <body>
-        <div class="masthead"><div class="masthead__inner-wrap">
-            <div class="masthead__menu">
-                <nav id="site-nav" class="greedy-nav"> 
+        <div class="masthead">
+            <div class="masthead__inner-wrap">
+                <div class="masthead__menu">
+                    <nav id="site-nav" class="greedy-nav"> 
                     <button class="hidden" count="0">
                         <div class="navicon"></div>
                     </button>
@@ -46,8 +56,8 @@
                         </li>
                     </ul>
                     <ul class="hidden-links hidden"></ul>
-                </nav>
-              </div>
+                    </nav>
+                </div>
             </div>
         </div>
         <main>
